@@ -1,6 +1,6 @@
 /*# sourceMappingURL=style.css.map */
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
 
 body {
   background: #333;
@@ -24,8 +24,34 @@ h1 {
   font-size: 9rem;
   line-height: 0.95;
   letter-spacing: 0.5rem;
-  background: url(https://media.giphy.com/media/26n6XC8EYdrzRniWQ/giphy.gif)
+  background: url(https://media.giphy.com/media/l4Ki4BrUO7zttW8Gk/giphy.gif)
     center/cover;
   -webkit-background-clip: text;
   -moz-background-clip: text;
+}
+
+:root {
+  --size: 300px;
+}
+body {
+  background: rgba(1, 255, 255, 0.3);
+}
+
+.cube {
+  margin: 12rem auto 0;
+  width: var(--size);
+  height: var(--size);
+  transform-style: preserve-3d;
+  transform: rotateY(30deg) rotateZ(30deg);
+}
+
+.side {
+  position: absolute;
+  opacity: 0.8;
+  width: var(--size);
+  height: var(--size);
+}
+
+#front {
+  background: url();
 }
