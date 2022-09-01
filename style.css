@@ -4,7 +4,7 @@
 
 body {
   background: rgb(81, 201, 195);
-  margin-bottom: 200px;
+  margin-top: 200px;
 }
 
 .title {
@@ -15,17 +15,17 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin-bottom: -50px;
+  height: 80vh;
+  
 }
 
 h1 {
   text-transform: uppercase;
   color: transparent;
   background-clip: border-box;
-  font-size: 9rem;
+  font-size: 20vw;
   line-height: 0.95;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.5vw;
   background: url(https://media.giphy.com/media/3ohhwEZqxzKbNUHzji/giphy.gif)
     center/cover;
   -webkit-background-clip: text;
@@ -33,11 +33,11 @@ h1 {
 }
 
 :root {
-  --size: 400px;
+  --size: 60vw;
 }
 
 .cube {
-  margin: 12rem auto 0;
+  margin: 15rem auto 15rem;
   width: var(--size);
   height: var(--size);
   transform-style: preserve-3d;
