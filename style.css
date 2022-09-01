@@ -7,6 +7,8 @@ body {
   margin-bottom: 200px;
 }
 
+
+
 .title {
   font-family: "Cinzel Decorative", cursive;
   text-align: center;
@@ -16,22 +18,24 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin-bottom: -50px;
 }
 
 h1 {
   text-transform: uppercase;
   color: transparent;
+  background-clip: border-box;
   font-size: 9rem;
   line-height: 0.95;
   letter-spacing: 0.5rem;
-  background: url(https://media.giphy.com/media/xT0GqKurRBk0V67B5K/giphy.gif)
+  background: url(https://media.giphy.com/media/3ohhwEZqxzKbNUHzji/giphy.gif)
     center/cover;
   -webkit-background-clip: text;
   -moz-background-clip: text;
 }
 
 :root {
-  --size: 500px;
+  --size: 400px;
 }
 
 .cube {
@@ -40,7 +44,7 @@ h1 {
   height: var(--size);
   transform-style: preserve-3d;
   transform: rotateY(30deg) rotateZ(30deg);
-  animation: spin 20s infinite linear;
+  animation: spin 15s infinite linear;
 }
 
 .side {
