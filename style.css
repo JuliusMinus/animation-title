@@ -3,11 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
 
 body {
-  background: rgb(170, 152, 152);
+  background: rgb(81, 201, 195);
   margin-bottom: 200px;
 }
-
-
 
 .title {
   font-family: "Cinzel Decorative", cursive;
